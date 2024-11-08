@@ -1,0 +1,64 @@
+nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+nav ul>li {
+    display: block;
+    margin: 10px;
+    padding: 7px;
+    border: 3px solid darkslategray ;
+    color: black ;
+    border-radius: 12px;
+}
+li>a{
+    text-decoration:none;
+    color: black;
+}
+li>a:hover{
+    color: azure;
+}
+li:hover{
+    background-color:slategray;
+    text-transform: uppercase;
+  
+}
+
+#titreinvest{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    color:teal;
+    text-align: center; 
+    text-transform:uppercase; 
+    margin-top: 30px;
+}
+#titreStart{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    color:lightcoral;
+    text-align: center; 
+    text-transform:uppercase; 
+    margin-top: 30px;
+}   
+        .center-table {
+            margin: 0 auto;
+        }
+
+        .select-wrapper {
+            display: inline-block;
+            vertical-align: top;
+            margin-left: 20px;
+        }
+        #nbactachterr{
+            color: red;
+        }
+        #cv{
+            display: block;
+            right: 2ch;
+            
+        }

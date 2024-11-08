@@ -1,0 +1,71 @@
+#div1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap; 
+    max-width: 100%;
+    height: auto;
+}
+
+.element3, .element1 {
+    text-align: center;
+    width: 50%;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:x-large;
+}
+#btn1 button:last-child{
+    background-color: rgb(211, 142, 3);
+    border-color: rgb(211, 142, 3);
+}
+#btn2 button:last-child{
+   background-color: rgb(2, 122, 2);
+    border-color:  rgb(2, 122, 2);
+}
+.element6 img{
+    position:relative;
+    
+}
+.element2, .element4{
+    width: 50%;
+}
+
+.element2 img, .element4 img{
+    width: 70%;
+    margin: 5ch 5ch 5ch 5ch;
+}
+@media screen and (max-width: 800px){
+    .element3,.element1{
+        font-size: large;
+    }
+} 
+.bouton button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+}
+.bouton button:hover {
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 1);
+}
+.bouton a{
+    text-decoration: none;
+    color: azure;
+    display: contents ;
+}
+.bouton a:hover{
+    color:black;
+}
+#btn1 button:last-child:hover {
+    background-color: rgb(246, 164, 0);
+    border-color: rgb(246, 164, 0);
+
+   
+}
+#btn2 button:last-child:hover{
+    
+    background-color: rgb(1, 192, 1);
+    color: rgb(1, 192, 1) ;
+}

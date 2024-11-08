@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+   margin: 0;
+}
+.eye-icon{
+display: flex;
+flex-direction: row;
+align-items: center;
+color:grey;
+transition: all 0.2s;
+position: relative;
+
+ }
+ .eye-icon .feather-eye-off{
+    display: none;
+ }
+ .eye-icon:hover{
+    cursor: pointer;
+    color: black;
+ }
+ .eye-icon{
+   position: relative;
+}
+
+.eye-icon .icon {
+   position: absolute;
+   right: 10px; /* Ajustez cette valeur pour positionner l'icône */
+   top: 50%;
+   transform: translateY(-50%)
+}
+#titre {
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 32px;
+   font-weight: bold;
+   color: lightcoral;
+   text-align: center; 
+   text-transform:uppercase; 
+   margin-top: 30px;
+}
+#titre1{
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 32px;
+   font-weight: bold;
+   color:teal;
+   text-align: center; 
+   text-transform:uppercase; 
+   margin-top: 30px;
+}
+
